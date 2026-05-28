@@ -1,0 +1,23 @@
+# AllKVD
+
+Backend systems, APIs, infrastructure tooling, developer workflows, and open-source engineering.
+
+Links
+- Portfolio: https://portfolio.allkvd.dev
+- GitHub: https://github.com/kvdhanush06
+- Resume: https://resume.allkvd.dev
+- EduToolsHub: https://edutoolshub.allkvd.dev
+- SociaSphere: https://sociasphere.allkvd.dev
+- AI Tools Directory: https://aitoolsdirectory.allkvd.dev
+- GitHub (redirect): https://github.allkvd.dev
+- LinkedIn (redirect): https://linkedin.allkvd.dev
+- X (redirect): https://x.allkvd.dev
+- YouTube (redirect): https://youtube.allkvd.dev
+- Medium (redirect): https://medium.allkvd.dev
+- StackOverflow (redirect): https://stackoverflow.allkvd.dev
+
+Short bio: Venkata Dhanush Kakarlamudi — systems-focused backend engineer building scalable APIs, automation systems, and developer-first products. Contact: admin@allkvd.dev
+
+Notes:
+- Single-page hub at https://allkvd.dev routes to product subdomains and socials.
+- Prefer portfolio at https://portfolio.allkvd.dev for recruiter-facing content.

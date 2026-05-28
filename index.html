@@ -1,0 +1,296 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="color-scheme" content="light dark" />
+    <meta name="author" content="Venkata Dhanush Kakarlamudi" />
+    <meta name="referrer" content="strict-origin-when-cross-origin" />
+    <meta name="format-detection" content="telephone=no" />
+    <title>AllKVD — Systems-focused backend engineering ⋅ allkvd.dev</title>
+    <meta name="description" content="AllKVD — Venkata Dhanush. Building scalable backend systems, APIs, automation and developer-first products. Navigation hub for portfolio, projects and social links." />
+    <meta name="keywords" content="Backend Engineer, APIs, FastAPI, PostgreSQL, Distributed Systems, Developer Tools, allkvd, Venkata Dhanush" />
+    <link rel="canonical" href="https://allkvd.dev/" />
+
+    <meta name="theme-color" content="#071023" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://img.youtube.com" crossorigin>
+
+    <meta property="og:site_name" content="AllKVD" />
+    <meta property="og:title" content="AllKVD — Systems-focused backend engineering" />
+    <meta property="og:description" content="Building scalable APIs, automation systems, and developer-first products. Navigation hub for portfolio, projects and social links." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://allkvd.dev/" />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:image" content="https://allkvd.dev/assets/images/og-image.svg" />
+    <meta property="og:image:type" content="image/svg+xml" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="AllKVD — Systems · APIs · Developer tooling" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="AllKVD — Systems-focused backend engineering" />
+    <meta name="twitter:description" content="Building scalable APIs, automation systems, and developer-first products." />
+    <meta name="twitter:image" content="https://allkvd.dev/assets/images/og-image.svg" />
+    <meta name="twitter:image:alt" content="AllKVD — Systems · APIs · Developer tooling" />
+
+    <link rel="icon" href="/favicon.svg" />
+    <link rel="manifest" href="/site.webmanifest" />
+
+    <meta name="robots" content="index,follow,max-snippet:-1,max-image-preview:large,max-video-preview:-1" />
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="preload" as="image" href="/assets/images/og-image.svg" type="image/svg+xml">
+    <script>
+      (function(){
+        const t = localStorage.getItem('allkvd-theme') || (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+        if(t==='dark') document.documentElement.setAttribute('data-theme','dark');
+
+        const icons = {
+          light: '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4"></circle><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"/></svg>',
+          dark: '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>'
+        };
+
+        function setBtnIcon(btn, theme){
+          btn.innerHTML = (theme === 'dark') ? icons.dark : icons.light;
+          btn.setAttribute('aria-label', 'Toggle color theme (current: ' + theme + ')');
+        }
+
+        window.addEventListener('DOMContentLoaded', ()=>{
+          const btn = document.getElementById('theme-toggle');
+          if(!btn) return;
+          setBtnIcon(btn, t);
+          btn.addEventListener('click', ()=>{
+            const cur = document.documentElement.getAttribute('data-theme') === 'dark' ? 'dark' : 'light';
+            const next = cur === 'dark' ? 'light' : 'dark';
+            if(next==='dark') document.documentElement.setAttribute('data-theme','dark'); else document.documentElement.removeAttribute('data-theme');
+            localStorage.setItem('allkvd-theme', next);
+            setBtnIcon(btn, next);
+          });
+        });
+      })();
+    </script>
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Venkata Dhanush Kakarlamudi",
+      "url": "https://allkvd.dev",
+      "jobTitle": "Backend & Systems Engineer",
+      "description": "Systems-focused backend engineer building scalable APIs, automation systems, and developer-first products.",
+      "image": "https://allkvd.dev/assets/images/og-image.svg",
+      "sameAs": [
+        "https://github.com/kvdhanush06",
+        "https://portfolio.allkvd.dev",
+        "https://edutoolshub.allkvd.dev",
+        "https://sociasphere.allkvd.dev",
+        "https://termsguard.allkvd.dev",
+        "https://youtube.allkvd.dev",
+        "https://x.allkvd.dev",
+        "https://linkedin.allkvd.dev",
+        "https://resume.allkvd.dev",
+        "https://medium.allkvd.dev",
+        "https://stackoverflow.allkvd.dev"
+      ],
+      "knowsAbout": ["Backend Engineering","Distributed Systems","FastAPI","PostgreSQL","Developer Tooling","Automation"]
+    }
+    </script>
+
+      <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "url": "https://allkvd.dev/",
+        "name": "AllKVD",
+        "author": {
+          "@type": "Person",
+          "name": "Venkata Dhanush Kakarlamudi"
+        },
+        "potentialAction": {
+          "@type": "SearchAction",
+          "target": "https://allkvd.dev/?s={search_term_string}",
+          "query-input": "required name=search_term_string"
+        }
+      }
+      </script>
+
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Skip to main content</a>
+    <header class="site-header">
+      <div class="container header-row">
+        <div style="display:flex;align-items:center;gap:16px">
+          <a class="logo" href="/">AllKVD</a>
+          <nav class="nav" aria-label="Primary navigation"></nav>
+        </div>
+        <div style="display:flex;align-items:center;gap:12px">
+          <button id="theme-toggle" class="theme-toggle" aria-label="Toggle color theme" title="Toggle theme"></button>
+        </div>
+      </div>
+    </header>
+
+    <main id="main-content">
+      <section class="hero container">
+        <div class="hero-inner">
+          <h1 class="hero-heading">Systems-focused backend engineer building scalable APIs, automation systems, and developer-first products.</h1>
+
+          <h3 class="current-focus-title">Current focus</h3>
+          <p class="focus-line">Backend Engineering · Distributed Systems · API Design · FastAPI · PostgreSQL · Microservices</p>
+
+          <p class="bio muted">Venkata Dhanush — I design and build reliable backend systems with an emphasis on operational simplicity, observability, and predictable scaling. I prefer minimal runtime surface and developer-first ergonomics.</p>
+          <div class="cta" style="margin-top:18px">
+            <a class="btn" href="https://portfolio.allkvd.dev" target="_blank" rel="noopener noreferrer">Portfolio</a>
+            <a class="btn" href="https://resume.allkvd.dev" target="_blank" rel="noopener noreferrer">Resume</a>
+          </div>
+        </div>
+      </section>
+
+      <section id="uses" class="container">
+        <h2>Tech Using Right Now</h2>
+        <div class="uses-list">
+          <span class="chip">Python</span>
+          <span class="chip">Django</span>
+          <span class="chip">FastAPI</span>
+          <span class="chip">Flask</span>
+          <span class="chip">PostgreSQL</span>
+          <span class="chip">Node.js</span>
+          <span class="chip">Git / GitHub</span>
+          <span class="chip">Docker</span>
+          <span class="chip">Redis</span>
+        </div>
+      </section>
+
+      <section id="projects" class="grid-section">
+        <div class="container">
+          <h2>Projects</h2>
+          <div class="projects-band">
+            <div class="projects-band-inner">
+              <div class="projects-list">
+
+                <article class="card product-card reveal">
+                  <div class="card-row">
+                    <div class="card-media">
+                      <img src="https://img.youtube.com/vi/Fe0io0Mu53A/hqdefault.jpg" alt="EduToolsHub preview" width="220" height="140" loading="lazy" decoding="async">
+                    </div>
+                    <div class="card-content">
+                      <h3>EduToolsHub</h3>
+                      <p class="project-desc">Helps students automate study workflows — manage deadlines, sync notes, and save time.</p>
+                      <div class="card-actions">
+                        <a class="btn" href="https://edutoolshub.allkvd.dev/" target="_blank" rel="noopener noreferrer">Visit</a>
+                        <a class="btn" href="https://github.com/kvdhanush06/EduToolsHub" target="_blank" rel="noopener noreferrer">GitHub</a>
+                        <a class="btn" href="https://youtu.be/Fe0io0Mu53A" target="_blank" rel="noopener noreferrer">Demo</a>
+                      </div>
+                    </div>
+                  </div>
+                </article>
+
+                <article class="card product-card reveal">
+                  <div class="card-row">
+                    <div class="card-media">
+                      <img src="https://img.youtube.com/vi/pIHj1mT5XzU/hqdefault.jpg" alt="SociaSphere preview" width="220" height="140" loading="lazy" decoding="async">
+                    </div>
+                    <div class="card-content">
+                      <h3>SociaSphere</h3>
+                      <p class="project-desc">Private community tooling and lightweight feeds to stay connected without noise.</p>
+                      <div class="card-actions">
+                        <a class="btn" href="https://sociasphere.allkvd.dev/" target="_blank" rel="noopener noreferrer">Visit</a>
+                        <a class="btn" href="https://github.com/kvdhanush06/SociaSphere" target="_blank" rel="noopener noreferrer">GitHub</a>
+                        <a class="btn" href="https://youtu.be/pIHj1mT5XzU" target="_blank" rel="noopener noreferrer">Demo</a>
+                      </div>
+                    </div>
+                  </div>
+                </article>
+
+                <article class="card product-card reveal center-only">
+                  <h3>TermsGuard</h3>
+                  <p class="project-desc">Summarize and highlight important clauses from Terms &amp; Conditions pages.</p>
+                  <div class="card-actions">
+                    <a class="btn" href="https://termsguard.allkvd.dev/" target="_blank" rel="noopener noreferrer">Visit</a>
+                    <a class="btn" href="https://github.com/kvdhanush06/TermsGuard" target="_blank" rel="noopener noreferrer">GitHub</a>
+                  </div>
+                </article>
+
+                <article class="card product-card reveal center-only">
+                  <h3>AI Tools Directory</h3>
+                  <p class="project-desc">Curated, practical directory of AI tools and guides.</p>
+                  <div class="card-actions">
+                    <a class="btn" href="https://aitoolsdirectory.allkvd.dev/" target="_blank" rel="noopener noreferrer">Visit</a>
+                    <a class="btn" href="https://github.com/kvdhanush06/ai-tools-directory" target="_blank" rel="noopener noreferrer">GitHub</a>
+                  </div>
+                </article>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="socials" class="container">
+        <h2>Social links</h2>
+        <div class="social-line" aria-label="Social links">
+          <a href="https://github.allkvd.dev" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="currentColor" aria-hidden="true">
+              <path d="M16,2.345c7.735,0,14,6.265,14,14-.002,6.015-3.839,11.359-9.537,13.282-.7,.14-.963-.298-.963-.665,0-.473,.018-1.978,.018-3.85,0-1.312-.437-2.152-.945-2.59,3.115-.35,6.388-1.54,6.388-6.912,0-1.54-.543-2.783-1.435-3.762,.14-.35,.63-1.785-.14-3.71,0,0-1.173-.385-3.85,1.435-1.12-.315-2.31-.472-3.5-.472s-2.38,.157-3.5,.472c-2.677-1.802-3.85-1.435-3.85-1.435-.77,1.925-.28,3.36-.14,3.71-.892,.98-1.435,2.24-1.435,3.762,0,5.355,3.255,6.563,6.37,6.913-.403,.35-.77,.963-.893,1.872-.805,.368-2.818,.963-4.077-1.155-.263-.42-1.05-1.452-2.152-1.435-1.173,.018-.472,.665,.017,.927,.595,.332,1.277,1.575,1.435,1.978,.28,.787,1.19,2.293,4.707,1.645,0,1.173,.018,2.275,.018,2.607,0,.368-.263,.787-.963,.665-5.719-1.904-9.576-7.255-9.573-13.283,0-7.735,6.265-14,14-14Z"></path>
+            </svg>
+          </a>
+          <a href="https://x.allkvd.dev" target="_blank" rel="noopener noreferrer" aria-label="X">
+            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="currentColor" aria-hidden="true">
+              <path d="M18.42,14.009L27.891,3h-2.244l-8.224,9.559L10.855,3H3.28l9.932,14.455L3.28,29h2.244l8.684-10.095,6.936,10.095h7.576l-10.301-14.991h0Zm-3.074,3.573l-1.006-1.439L6.333,4.69h3.447l6.462,9.243,1.006,1.439,8.4,12.015h-3.447l-6.854-9.804h0Z"></path>
+            </svg>
+          </a>
+          <a href="https://youtube.allkvd.dev" target="_blank" rel="noopener noreferrer" aria-label="YouTube">
+            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="currentColor" aria-hidden="true">
+              <path d="M31.331,8.248c-.368-1.386-1.452-2.477-2.829-2.848-2.496-.673-12.502-.673-12.502-.673,0,0-10.007,0-12.502,.673-1.377,.37-2.461,1.462-2.829,2.848-.669,2.512-.669,7.752-.669,7.752,0,0,0,5.241,.669,7.752,.368,1.386,1.452,2.477,2.829,2.847,2.496,.673,12.502,.673,12.502,.673,0,0,10.007,0,12.502-.673,1.377-.37,2.461-1.462,2.829-2.847,.669-2.512,.669-7.752,.669-7.752,0,0,0-5.24-.669-7.752ZM12.727,20.758V11.242l8.364,4.758-8.364,4.758Z"></path>
+            </svg>
+          </a>
+          <a href="https://medium.allkvd.dev" target="_blank" rel="noopener noreferrer" aria-label="Medium">
+            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="currentColor" aria-hidden="true">
+              <path d="M18.05,16c0,5.018-4.041,9.087-9.025,9.087S0,21.018,0,16,4.041,6.913,9.025,6.913s9.025,4.069,9.025,9.087m9.901,0c0,4.724-2.02,8.555-4.513,8.555s-4.513-3.831-4.513-8.555,2.02-8.555,4.512-8.555,4.513,3.83,4.513,8.555m4.05,0c0,4.231-.71,7.664-1.587,7.664s-1.587-3.431-1.587-7.664,.71-7.664,1.587-7.664,1.587,3.431,1.587,7.664"></path>
+            </svg>
+          </a>
+          <a href="https://linkedin.allkvd.dev" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="currentColor" aria-hidden="true">
+              <path d="M26.111,3H5.889c-1.595,0-2.889,1.293-2.889,2.889V26.111c0,1.595,1.293,2.889,2.889,2.889H26.111c1.595,0,2.889-1.293,2.889-2.889V5.889c0-1.595-1.293-2.889-2.889-2.889ZM10.861,25.389h-3.877V12.87h3.877v12.519Zm-1.957-14.158c-1.267,0-2.293-1.034-2.293-2.31s1.026-2.31,2.293-2.31,2.292,1.034,2.292,2.31-1.026,2.31-2.292,2.31Zm16.485,14.158h-3.858v-6.571c0-1.802-.685-2.809-2.111-2.809-1.551,0-2.362,1.048-2.362,2.809v6.571h-3.718V12.87h3.718v1.686s1.118-2.069,3.775-2.069,4.556,1.621,4.556,4.975v7.926Z" fill-rule="evenodd"></path>
+            </svg>
+          </a>
+          <a href="https://stackoverflow.allkvd.dev" target="_blank" rel="noopener noreferrer" aria-label="StackOverflow">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24" height="24" width="24" aria-hidden="true">
+              <path fill="currentColor" fill-rule="evenodd" d="m13.186 2.081 5 7 1.628 -1.162 -5 -7 -1.628 1.162Zm3.663 9.178 -7 -6 1.302 -1.518 7 6 -1.302 1.518ZM7.074 9.905l8.5 4 0.852 -1.81 -8.5 -4 -0.852 1.81Zm7.71 6.571 -9 -2 0.433 -1.952 9 2 -0.434 1.952ZM3.5 15h-2v8h18v-8h-2v6h-14v-6ZM6 19h9v-2H6v2Z" clip-rule="evenodd" stroke-width="1"></path>
+            </svg>
+          </a>
+        </div>
+      </section>
+
+
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <div class="left">© <strong>AllKVD</strong> — <a href="mailto:admin@allkvd.dev">admin@allkvd.dev</a></div>
+      </div>
+    </footer>
+
+    <script>
+      document.addEventListener('DOMContentLoaded', function(){
+        const els = document.querySelectorAll('.reveal');
+        if(!els.length) return;
+        const io = new IntersectionObserver((entries)=>{
+          entries.forEach(entry => {
+            if(entry.isIntersecting){
+              entry.target.classList.add('show');
+              io.unobserve(entry.target);
+            }
+          });
+        },{threshold:0.12});
+        els.forEach((el, i) => {
+          el.style.transitionDelay = (i*80)+'ms';
+          io.observe(el);
+        });
+      });
+    </script>
+
+  </body>
+</html>
