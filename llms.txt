@@ -6,6 +6,7 @@ Links
 - Portfolio: https://portfolio.allkvd.dev
 - GitHub: https://github.com/kvdhanush06
 - Resume: https://resume.allkvd.dev
+- CogniitSearch: https://cogniitsearch.allkvd.dev
 - EduToolsHub: https://edutoolshub.allkvd.dev
 - SociaSphere: https://sociasphere.allkvd.dev
 - AI Tools Directory: https://aitoolsdirectory.allkvd.dev
