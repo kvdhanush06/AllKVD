@@ -17,7 +17,7 @@ Links
 - Medium (redirect): https://medium.allkvd.dev
 - StackOverflow (redirect): https://stackoverflow.allkvd.dev
 
-Short bio: Venkata Dhanush Kakarlamudi — systems-focused backend engineer building scalable APIs, automation systems, and developer-first products. Contact: admin@allkvd.dev
+Short bio: Venkata Dhanush Kakarlamudi — Software Engineer building useful web applications, AI-powered tools, search platforms, and productivity products. Focuses on backend systems, APIs, and AI-powered applications. Contact: admin@allkvd.dev
 
 Notes:
 - Single-page hub at https://allkvd.dev routes to product subdomains and socials.
