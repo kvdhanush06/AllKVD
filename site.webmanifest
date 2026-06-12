@@ -1,16 +1,62 @@
 {
   "name": "AllKVD — Venkata Dhanush",
   "short_name": "AllKVD",
-  "start_url": "/",
-  "display": "standalone",
-  "background_color": "#071023",
-  "theme_color": "#7dd3fc",
   "description": "AllKVD — Software Engineer building useful web applications, AI-powered tools, search platforms, and productivity products.",
+  "lang": "en-US",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "display_override": ["standalone", "minimal-ui"],
+  "orientation": "any",
+  "theme_color": "#071023",
+  "background_color": "#071023",
+  "prefer_related_applications": false,
+
+  "categories": ["productivity", "utilities"],
+  "iarc_rating_id": "691c0a3d-3173-4111-955a-a054d2da2436",
+
   "icons": [
     {
-      "src": "/favicon.svg",
-      "sizes": "any",
-      "type": "image/svg+xml"
+      "src": "/assets/icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/assets/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "related_applications": [
+    {
+      "platform": "web",
+      "url": "https://allkvd.dev/manifest.json"
+    }
+  ],
+  "url": "https://allkvd.dev/",
+  "shortcuts": [
+    {
+      "name": "View Portfolio",
+      "short_name": "Portfolio",
+      "description": "Visit Venkata Dhanush's portfolio",
+      "url": "https://portfolio.allkvd.dev/?utm_source=homescreen",
+      "icons": [{ "src": "/assets/icons/icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "AI Tools Directory",
+      "short_name": "AI Tools",
+      "description": "Discover AI tools across categories",
+      "url": "https://aitoolsdirectory.allkvd.dev/?utm_source=homescreen",
+      "icons": [{ "src": "/assets/icons/icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "CogniitSearch",
+      "short_name": "CogniitSearch",
+      "description": "AI-powered search with cited answers",
+      "url": "https://cogniitsearch.allkvd.dev/?utm_source=homescreen",
+      "icons": [{ "src": "/assets/icons/icon-192.png", "sizes": "192x192" }]
     }
   ]
 }

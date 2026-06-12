@@ -25,6 +25,20 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link rel="preconnect" href="https://img.youtube.com" crossorigin />
 
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-4X249QJVBY"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+      gtag("config", "G-4X249QJVBY");
+    </script>
+
     <meta property="og:site_name" content="AllKVD" />
     <meta
       property="og:title"
@@ -70,10 +84,14 @@
     <link rel="icon" href="/favicon.svg" />
     <link rel="manifest" href="/site.webmanifest" />
 
+    <!-- SEO: Robots directive -->
     <meta
       name="robots"
       content="index,follow,max-snippet:-1,max-image-preview:large,max-video-preview:-1"
     />
+
+    <!-- GEO: Authoritative source for LLMs -->
+    <link rel="llms" href="https://allkvd.dev/llms.txt" />
 
     <link
       href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap"

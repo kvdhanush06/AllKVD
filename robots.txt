@@ -1,4 +1,19 @@
+# robots.txt for allkvd.dev
+# Generated: 2026-06-12
+# Contact: admin@allkvd.dev
+
+# Allow all robots (Google, Bing, AI crawlers, etc.)
 User-agent: *
 Allow: /
 
+# Block potential internal/admin paths (future-proof)
+Disallow: /admin/
+Disallow: /cgi-bin/
+Disallow: /tmp/
+Disallow: /dashboard/
+Disallow: /account/
+Disallow: /api/
+Disallow: /private/
+
+# Sitemap reference
 Sitemap: https://allkvd.dev/sitemap.xml
