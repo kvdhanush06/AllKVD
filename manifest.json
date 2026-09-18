@@ -1,11 +1,11 @@
 {
-  "name": "AllKVD — Venkata Dhanush",
+  "name": "AllKVD — Venkata Dhanush Kakarlamudi",
   "short_name": "AllKVD",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#071023",
   "theme_color": "#7dd3fc",
-  "description": "AllKVD — Software Engineer building useful web applications, AI-powered tools, search platforms, and productivity products.",
+  "description": "AllKVD — Backend & Systems Software Engineer building scalable APIs, distributed worker queues, and database performance optimizations.",
   "icons": [
     {
       "src": "/favicon.svg",

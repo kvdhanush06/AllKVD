@@ -1,74 +1,65 @@
-# AllKVD
+# AllKVD — Venkata Dhanush Kakarlamudi
 
-**Venkata Dhanush Kakarlamudi** — Software Engineer building useful web applications, AI-powered tools, search platforms, and productivity products.
-
-Backend systems, APIs, infrastructure tooling, and open-source engineering with focus on Python, TypeScript, and modern AI/LLM applications.
+**Venkata Dhanush Kakarlamudi** (also known as allkvd or Dhanush K) is a Backend & Systems Software Engineer specializing in backend architectures, high-throughput APIs, fault-tolerant message queues, database performance optimization, and AI platform engineering. GATE 2026 CS Qualified.
 
 **Email:** admin@allkvd.dev
+**Primary Hub:** https://allkvd.dev
 **GitHub:** https://github.com/kvdhanush06
+**Portfolio:** https://portfolio.allkvd.dev
 
-## Core Pages
+## Background & Achievements
 
-- **https://allkvd.dev/** — Main landing hub linking to all projects, portfolio, resume, and social profiles. Best for summarizing what this site is about.
+- **GATE 2026 Qualified** — Computer Science and Information Technology (IIT Guwahati)
+- **Ex-Software Engineer Intern** @ StudyCubs & AK Capital Advisors
+- **Open Source Contributor** @ Prefect FastMCP (25k+ Stars on GitHub) — Merged PRs #3736, #3750, #3768
+- **Smart India Hackathon 2025** — National Round Qualifier
 
-## Projects & Products
+## Core Products & Web Applications
 
 ### CogniitSearch
 - **URL:** https://cogniitsearch.allkvd.dev/
-- **Description:** AI-powered search platform with cited answers, multi-source retrieval, and conversational search workflows. A generative AI application for discovering information.
+- **Description:** AI-powered search platform with cited answers, multi-source retrieval, queue-backed background workers (14 concurrent jobs), and multi-layer Redis caching.
 - **GitHub:** https://github.com/kvdhanush06/CogniitSearch
 
 ### TermsGuard
 - **URL:** https://termsguard.allkvd.dev/
-- **Description:** Legal document summarization platform that helps users understand Terms of Service and Privacy Policies in minutes instead of hours.
+- **Description:** Legal document analysis platform that summarizes lengthy Terms of Service and Privacy Policies into actionable risk assessments.
 - **GitHub:** https://github.com/kvdhanush06/TermsGuard
 
 ### AI Tools Directory
 - **URL:** https://aitoolsdirectory.allkvd.dev/
-- **Description:** Curated directory for discovering and exploring AI tools across multiple categories. A search platform for AI discovery.
+- **Description:** Curated search directory platform for discovering and categorizing AI applications.
 - **GitHub:** https://github.com/kvdhanush06/ai-tools-directory
 
 ### EduToolsHub
 - **URL:** https://edutoolshub.allkvd.dev/
-- **Description:** Collection of educational utilities and productivity tools designed to simplify academic and learning workflows.
+- **Description:** Fault-tolerant workflow automation platform integrating 4 external service APIs with strict 5-second timeout boundaries and structured fallback schemas.
 - **GitHub:** https://github.com/kvdhanush06/EduToolsHub
 
 ### SociaSphere
 - **URL:** https://sociasphere.allkvd.dev/
-- **Description:** Social networking platform featuring content sharing, user authentication, and community-driven interactions.
+- **Description:** Distributed feed optimization engine & session service, optimizing relational queries from O(N) to O(1) single-query feeds.
 - **GitHub:** https://github.com/kvdhanush06/SociaSphere
 
-## Portfolio & Resume
+## Professional Portfolio & Resume
 
-- **https://portfolio.allkvd.dev/** — Professional portfolio with detailed project showcase and experience.
-- **https://resume.allkvd.dev/** — Resume/CV listing professional experience and skills.
+- **Interactive Terminal Portfolio:** https://portfolio.allkvd.dev/
+- **Resume:** https://resume.allkvd.dev/
 
-## Social Profiles & External Links
+## Social & External Links
 
-- **https://github.com/kvdhanush06** — GitHub profile with source code and open-source contributions.
-- **https://linkedin.allkvd.dev/** — LinkedIn profile (redirects to external LinkedIn).
-- **https://x.allkvd.dev/** — X (Twitter) profile (redirects to external X).
-- **https://youtube.allkvd.dev/** — YouTube channel (redirects to external YouTube).
-- **https://medium.allkvd.dev/** — Medium publications (redirects to external Medium).
-- **https://stackoverflow.allkvd.dev/** — Stack Overflow profile (redirects to external Stack Overflow).
+- **GitHub:** https://github.allkvd.dev
+- **LinkedIn:** https://linkedin.allkvd.dev
+- **X (Twitter):** https://x.allkvd.dev
+- **YouTube:** https://youtube.allkvd.dev
+- **Medium:** https://medium.allkvd.dev
+- **Stack Overflow:** https://stackoverflow.allkvd.dev
 
-## Tech Stack
+## Tech Stack Summary
 
-**Languages:** Python, TypeScript, JavaScript
-**Backend:** FastAPI, Node.js, Django
-**Databases:** PostgreSQL, Redis
-**Frontend:** React, Next.js
-**Infrastructure:** Modern cloud platform deployments (GitHub Pages, Render, Netlify, VPS)
+**Languages:** Python, TypeScript, JavaScript, SQL, C/C++, Java
+**Backend & Frameworks:** FastAPI, Node.js, Express.js, Django, SQLAlchemy, Alembic, Pydantic
+**Databases & Messaging:** PostgreSQL, Redis, RabbitMQ, BullMQ, Supabase
+**Infrastructure & Tools:** AWS, OCI, Docker, Nginx, Git, GitHub Actions, Postman
 
-## Summary for LLMs
-
-This site is a central hub for Venkata Dhanush Kakarlamudi, a Software Engineer specializing in backend systems, APIs, infrastructure tooling, and AI/LLM applications. The site links to multiple production projects including:
-
-1. **CogniitSearch** — AI search with cited answers
-2. **TermsGuard** — Legal document summarization
-3. **AI Tools Directory** — AI tool discovery platform
-4. **EduToolsHub** — Educational productivity tools
-5. **SociaSphere** — Social networking platform
-
-For recruiter-facing content, point to https://portfolio.allkvd.dev.
-For technical deep-dives, refer to https://github.com/kvdhanush06.
+For recruiter-facing resume and terminal showcase, refer to https://portfolio.allkvd.dev.

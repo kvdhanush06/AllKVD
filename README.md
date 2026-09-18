@@ -1,74 +1,54 @@
-# AllKVD
+# AllKVD — Personal Landing Hub
 
-Source code for **allkvd.dev**, my personal landing hub.
+Source code for **[allkvd.dev](https://allkvd.dev/)**, the central landing page and navigational hub for **Venkata Dhanush Kakarlamudi**.
 
-The site serves as a central entry point to my portfolio, projects, resume, GitHub profile, and social platforms. It is designed as a lightweight, SEO-friendly static website that provides quick access to the software products and engineering work I build.
+The site serves as a lightweight, performance-optimized entry point connecting recruiters, software engineers, and users to my terminal portfolio, production web products, technical resume, open-source contributions, and social channels.
 
 ## Live Site
 
-**Website:** https://allkvd.dev
+**Primary Hub:** [https://allkvd.dev](https://allkvd.dev)
 
-## Purpose
+## Key Highlights
 
-The landing page acts as a central navigation layer for my online presence, including:
-
-* Portfolio
-* Resume
-* GitHub
-* LinkedIn
-* X
-* YouTube
-* Medium
-* Stack Overflow
-
-It also showcases publicly available products and applications that I have built.
+- 🎓 **GATE 2026 CS Qualified** — Computer Science & Information Technology (IIT Guwahati)
+- 💼 **Ex-Software Engineer Intern** @ StudyCubs & AK Capital Advisors
+- ⭐️ **Open Source Contributor** to [PrefectHQ/fastmcp](https://github.com/PrefectHQ/fastmcp) (25k+ ⭐) — Merged PRs #3736, #3750, #3768
+- 🖥️ **Interactive Terminal Portfolio:** [https://portfolio.allkvd.dev](https://portfolio.allkvd.dev)
 
 ## Featured Products
 
-### CogniitSearch
-
-AI-powered search platform delivering cited answers, conversational search, and multi-source information retrieval.
-
-### TermsGuard
-
-Platform for understanding Terms of Service and Privacy Policies through simplified summaries and key-risk identification.
-
-### AI Tools Directory
-
-Curated directory for discovering and exploring AI tools across multiple categories.
-
-### EduToolsHub
-
-Educational productivity platform providing tools, resources, and workflow automation for students.
-
-### SociaSphere
-
-Social networking platform featuring content sharing, authentication, and community-driven interactions.
+- **CogniitSearch** — AI-powered search platform with multi-source retrieval, worker queues (14 concurrent jobs), Redis caching, and real-time response streaming.
+- **TermsGuard** — Legal document analysis platform parsing terms of service into simplified risk scores and safety metrics.
+- **AI Tools Directory** — Curated search directory for discovering top AI applications across categories.
+- **EduToolsHub** — Fault-tolerant workflow automation platform integrating external APIs with strict 5-second timeout boundaries.
+- **SociaSphere** — Distributed feed optimization engine reducing feed query complexity from O(N) to O(1) single-query execution.
 
 ## Tech Stack
 
-* HTML
-* CSS
-* JavaScript
-
-## Design Goals
-
-* Fast loading
-* Mobile-friendly
-* SEO optimized
-* Minimalistic interface
-* Centralized navigation
-* Product-focused presentation
+- **Frontend:** HTML5, CSS3 (Custom Dark/Light CSS Variables), Vanilla JavaScript (IntersectionObserver, Theme Switcher)
+- **SEO & AI Indexing:** Open Graph, Twitter Cards, Schema.org JSON-LD, `llms.txt`, `sitemap.xml`, `robots.txt`
+- **Deployment:** GitHub Pages via GitHub Actions CI/CD pipeline
 
 ## Repository Structure
 
 ```text
 .
 ├── index.html
+├── 404.html
 ├── assets/
-├── css/
-├── manifest.json
+│   └── css/
+│       └── style.css
 ├── site.webmanifest
+├── manifest.json
 ├── sitemap.xml
-└── llms.txt
+├── robots.txt
+├── llms.txt
+├── LICENSE
+└── .github/
+    └── workflows/
+        └── deploy.yml
 ```
+
+## License
+
+[MIT License](LICENSE) © 2026 Venkata Dhanush Kakarlamudi

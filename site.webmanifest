@@ -1,7 +1,7 @@
 {
-  "name": "AllKVD — Venkata Dhanush",
+  "name": "AllKVD — Venkata Dhanush Kakarlamudi",
   "short_name": "AllKVD",
-  "description": "AllKVD — Software Engineer building useful web applications, AI-powered tools, search platforms, and productivity products.",
+  "description": "AllKVD — Backend & Systems Software Engineer specializing in scalable APIs, distributed worker queues, and database performance optimization.",
   "lang": "en-US",
   "start_url": "/",
   "scope": "/",
@@ -11,10 +11,8 @@
   "theme_color": "#071023",
   "background_color": "#071023",
   "prefer_related_applications": false,
-
-  "categories": ["productivity", "utilities"],
+  "categories": ["productivity", "utilities", "developer tools"],
   "iarc_rating_id": "691c0a3d-3173-4111-955a-a054d2da2436",
-
   "icons": [
     {
       "src": "/assets/icons/icon-192.png",
@@ -29,26 +27,12 @@
       "purpose": "any maskable"
     }
   ],
-  "related_applications": [
-    {
-      "platform": "web",
-      "url": "https://allkvd.dev/manifest.json"
-    }
-  ],
-  "url": "https://allkvd.dev/",
   "shortcuts": [
     {
       "name": "View Portfolio",
       "short_name": "Portfolio",
-      "description": "Visit Venkata Dhanush's portfolio",
+      "description": "Visit Venkata Dhanush's terminal portfolio",
       "url": "https://portfolio.allkvd.dev/?utm_source=homescreen",
-      "icons": [{ "src": "/assets/icons/icon-192.png", "sizes": "192x192" }]
-    },
-    {
-      "name": "AI Tools Directory",
-      "short_name": "AI Tools",
-      "description": "Discover AI tools across categories",
-      "url": "https://aitoolsdirectory.allkvd.dev/?utm_source=homescreen",
       "icons": [{ "src": "/assets/icons/icon-192.png", "sizes": "192x192" }]
     },
     {
@@ -56,6 +40,13 @@
       "short_name": "CogniitSearch",
       "description": "AI-powered search with cited answers",
       "url": "https://cogniitsearch.allkvd.dev/?utm_source=homescreen",
+      "icons": [{ "src": "/assets/icons/icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "AI Tools Directory",
+      "short_name": "AI Tools",
+      "description": "Discover AI tools across categories",
+      "url": "https://aitoolsdirectory.allkvd.dev/?utm_source=homescreen",
       "icons": [{ "src": "/assets/icons/icon-192.png", "sizes": "192x192" }]
     }
   ]
