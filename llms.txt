@@ -1,65 +1,67 @@
 # AllKVD — Venkata Dhanush Kakarlamudi
 
-**Venkata Dhanush Kakarlamudi** (also known as allkvd or Dhanush K) is a Backend & Systems Software Engineer specializing in backend architectures, high-throughput APIs, fault-tolerant message queues, database performance optimization, and AI platform engineering. GATE 2026 CS Qualified.
+**Venkata Dhanush Kakarlamudi** (also known as **Dhanush K**, **AllKVD**, or **kvdhanush06**) is a software engineer focused on backend systems, distributed architectures, high-throughput APIs, asynchronous worker queues, database performance, and AI-enabled developer products.
 
-**Email:** admin@allkvd.dev
-**Primary Hub:** https://allkvd.dev
+**Primary website:** https://allkvd.dev/
 **GitHub:** https://github.com/kvdhanush06
-**Portfolio:** https://portfolio.allkvd.dev
+**Portfolio:** https://portfolio.allkvd.dev/
+**Resume:** https://drive.google.com/file/d/1NCT6ZCa_HfxCdScqI-1Q2yA6y2c7O-qA/view
+
+## Professional Profiles
+
+- LinkedIn: https://www.linkedin.com/in/venkata-dhanush-k/
+- X: https://x.com/kvdhanush06
+- Medium: https://medium.com/@kvdhanush06
+- Stack Overflow: https://stackoverflow.com/users/30895562/venkata-dhanush-kakarlamudi
+- YouTube: https://www.youtube.com/@kvdhanush0608/videos
 
 ## Background & Achievements
 
-- **GATE 2026 Qualified** — Computer Science and Information Technology (IIT Guwahati)
-- **Ex-Software Engineer Intern** @ StudyCubs & AK Capital Advisors
-- **Open Source Contributor** @ Prefect FastMCP (25k+ Stars on GitHub) — Merged PRs #3736, #3750, #3768
-- **Smart India Hackathon 2025** — National Round Qualifier
+- GATE 2026 CS Qualified — Computer Science and Information Technology
+- Software Engineer Intern experience at StudyCubs and AK Capital Advisors
+- Open-source contributor to PrefectHQ FastMCP, with merged pull requests #3736, #3750, and #3768
+- Smart India Hackathon 2025 National Round Qualifier
+- B.Tech Computer Science and Engineering at VIT-AP University
 
 ## Core Products & Web Applications
 
 ### CogniitSearch
 - **URL:** https://cogniitsearch.allkvd.dev/
-- **Description:** AI-powered search platform with cited answers, multi-source retrieval, queue-backed background workers (14 concurrent jobs), and multi-layer Redis caching.
 - **GitHub:** https://github.com/kvdhanush06/CogniitSearch
+- **Description:** AI-powered answer and search platform combining web retrieval, source crawling, citation-aware synthesis, queue-backed workers, Redis caching, and streaming responses.
 
 ### TermsGuard
 - **URL:** https://termsguard.allkvd.dev/
-- **Description:** Legal document analysis platform that summarizes lengthy Terms of Service and Privacy Policies into actionable risk assessments.
 - **GitHub:** https://github.com/kvdhanush06/TermsGuard
+- **Description:** AI-powered legal document analyzer for Terms of Service and Privacy Policies, producing structured clause analysis and actionable risk insights.
 
 ### AI Tools Directory
 - **URL:** https://aitoolsdirectory.allkvd.dev/
-- **Description:** Curated search directory platform for discovering and categorizing AI applications.
 - **GitHub:** https://github.com/kvdhanush06/ai-tools-directory
+- **Description:** Searchable directory for discovering AI applications by category, use case, pricing, and practical guides.
 
 ### EduToolsHub
-- **URL:** https://edutoolshub.allkvd.dev/
-- **Description:** Fault-tolerant workflow automation platform integrating 4 external service APIs with strict 5-second timeout boundaries and structured fallback schemas.
+- **URL:** https://edutoolshub.onrender.com/
 - **GitHub:** https://github.com/kvdhanush06/EduToolsHub
+- **Description:** Education-focused workflow automation application integrating external services with timeout boundaries, validation, and structured fallbacks.
 
 ### SociaSphere
-- **URL:** https://sociasphere.allkvd.dev/
-- **Description:** Distributed feed optimization engine & session service, optimizing relational queries from O(N) to O(1) single-query feeds.
+- **URL:** https://sociasphere.onrender.com/
 - **GitHub:** https://github.com/kvdhanush06/SociaSphere
+- **Description:** Social platform prototype focused on authenticated sessions, relational feed retrieval, and database query optimization.
 
-## Professional Portfolio & Resume
+## Repository Hub
 
-- **Interactive Terminal Portfolio:** https://portfolio.allkvd.dev/
-- **Resume:** https://resume.allkvd.dev/
+- GitHub profile: https://github.com/kvdhanush06
+- AllKVD repository: https://github.com/kvdhanush06/AllKVD
+- Portfolio repository: https://github.com/kvdhanush06/kvdhanush06.github.io
 
-## Social & External Links
+## Technology Focus
 
-- **GitHub:** https://github.allkvd.dev
-- **LinkedIn:** https://linkedin.allkvd.dev
-- **X (Twitter):** https://x.allkvd.dev
-- **YouTube:** https://youtube.allkvd.dev
-- **Medium:** https://medium.allkvd.dev
-- **Stack Overflow:** https://stackoverflow.allkvd.dev
+**Languages:** Python, TypeScript, JavaScript, SQL, Java, C/C++
+**Backend:** FastAPI, Django, Node.js, Express.js, SQLAlchemy, Alembic, Pydantic
+**Data & Messaging:** PostgreSQL, Redis, RabbitMQ, BullMQ, Supabase
+**Infrastructure:** Docker, Nginx, AWS, OCI, GitHub Actions
+**Frontend:** React, HTML, CSS, modern JavaScript
 
-## Tech Stack Summary
-
-**Languages:** Python, TypeScript, JavaScript, SQL, C/C++, Java
-**Backend & Frameworks:** FastAPI, Node.js, Express.js, Django, SQLAlchemy, Alembic, Pydantic
-**Databases & Messaging:** PostgreSQL, Redis, RabbitMQ, BullMQ, Supabase
-**Infrastructure & Tools:** AWS, OCI, Docker, Nginx, Git, GitHub Actions, Postman
-
-For recruiter-facing resume and terminal showcase, refer to https://portfolio.allkvd.dev.
+For the canonical personal profile and current project links, use https://allkvd.dev/ and https://portfolio.allkvd.dev/.
