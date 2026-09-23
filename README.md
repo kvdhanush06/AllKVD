@@ -40,6 +40,9 @@ AllKVD is the central entry point connecting visitors to Dhanush's engineering p
 - **SociaSphere** — Social platform prototype focused on authenticated sessions, relational feed retrieval, and database query optimization.
   - Live: https://sociasphere.onrender.com/
   - Repository: https://github.com/kvdhanush06/SociaSphere
+- **Droply** — Browser-based peer-to-peer transfer platform for sending files, folders, and text directly between devices without uploads, accounts, or cloud storage.
+  - Live: https://droply.allkvd.dev/
+  - Repository: https://github.com/kvdhanush06/Droply
 
 ## Technology Focus
 
