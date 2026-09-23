@@ -1,0 +1,43 @@
+name: Add Droply Project
+
+on:
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Add Droply card
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+
+          path = Path("index.html")
+          text = path.read_text(encoding="utf-8")
+
+          marker = '''                </article>\n\n              </div>\n            </div>\n          </div>'''
+
+          card = '''                </article>\n\n                <article class="card product-card reveal">\n                  <div class="card-row">\n                    <div class="card-content">\n                      <h3>Droply</h3>\n                      <p class="project-desc">\n                        Browser-based peer-to-peer transfer platform for sending files, folders, and text directly between devices without uploads, accounts, or cloud storage, using WebRTC DataChannels with lightweight WebSocket signaling.\n                      </p>\n                      <div class="card-actions">\n                        <a\n                          class="btn"\n                          href="https://droply.allkvd.dev/"\n                          target="_blank"\n                          rel="noopener noreferrer"\n                          >Visit</a\n                        >\n                        <a\n                          class="btn"\n                          href="https://github.com/kvdhanush06/Droply"\n                          target="_blank"\n                          rel="noopener noreferrer"\n                          >GitHub</a\n                        >\n                      </div>\n                    </div>\n                  </div>\n                </article>\n\n              </div>\n            </div>\n          </div>'''
+
+          if "<h3>Droply</h3>" not in text:
+              if marker not in text:
+                  raise SystemExit("Project-list insertion marker not found")
+              text = text.replace(marker, card, 1)
+              path.write_text(text, encoding="utf-8")
+          PY
+
+      - name: Commit and remove temporary workflow
+        run: |
+          rm .github/workflows/add-droply.yml
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add index.html .github/workflows/add-droply.yml
+          git diff --cached --quiet || git commit -m "feat: add Droply to AllKVD projects"
+          git push
